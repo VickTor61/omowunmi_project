@@ -1,25 +1,33 @@
 .Book {
-    height: 23rem;
-    width: 20rem;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px rgba(179, 171, 171, 0.623);
-    margin: 1rem 1.5rem;
-    padding-left: 20px;
+  height: 23rem;
+  width: 20rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 3px rgba(179, 171, 179, 0.623);
+  margin: 1rem 1.5rem;
+  padding-left: 20px;
+  scale: 0.98;
+  transition: all .5s ease-in-out;
 }
+
+.Book:hover {
+  scale: 1;
+  cursor: pointer;
+}
+
 .Book_head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0.5rem;
 }
 
 .Book_head_img {
-    height: 115px;
-    width: 115px;
-    padding-right: 10px;
+  height: 115px;
+  width: 115px;
+  padding-right: 10px;
 }
 .Book_ratings {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }

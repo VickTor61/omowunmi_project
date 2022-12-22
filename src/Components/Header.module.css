@@ -2,13 +2,12 @@
   height: 10rem;
   box-shadow: 5px 5px 5px rgb(230, 212, 212);
   position: relative;
+  color: rgba(212, 0, 255, 0.904);
 }
 .h1 {
-  background-color: rgba(16, 16, 17, 0.986);
-  color: white;
   display: flex;
   justify-content: space-between;
-  padding: 0 10px;
+  padding: 0 20px;
   margin-bottom: 1rem;
 }
 
