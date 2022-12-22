@@ -1,0 +1,40 @@
+.Header {
+  height: 10rem;
+  box-shadow: 5px 5px 5px rgb(230, 212, 212);
+  position: relative;
+}
+.h1 {
+  background-color: rgba(16, 16, 17, 0.986);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 940px) {
+  .h1 > h1 {
+    font-size: 1.2rem;
+  }
+  .Header {
+    height: 8rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .h1 > h1 {
+    font-size: 1rem;
+  }
+  .Header {
+    height: 7rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .h1 > h1 {
+    font-size: 0.7rem;
+  }
+  .Header {
+    height: 6rem;
+  }
+}
